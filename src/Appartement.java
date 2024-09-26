@@ -18,7 +18,7 @@ public class Appartement extends BienImmobilier{
         int nombreDePieces = 0;
 
         for (Piece piece : getPieces()) {
-            if (piece.getTypePiece().isSurfaceHabitable()) {
+            if (piece.getTypePiece().isPiece()) {
                 nombreDePieces++;
             }
         }
