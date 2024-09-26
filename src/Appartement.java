@@ -23,12 +23,10 @@ public class Appartement extends BienImmobilier{
             }
         }
 
-        // Si l'appartement a plus de 7 pièces, on retourne "T7+"
         if (nombreDePieces > 7) {
             return "T7+";
         }
 
-        // Sinon, on retourne "T" suivi du nombre de pièces
         return "T" + nombreDePieces;
     }
 
