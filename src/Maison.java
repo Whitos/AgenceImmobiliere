@@ -18,7 +18,7 @@ public class Maison extends BienImmobilier{
     public String toString() {
         String resultat ="";
         resultat = "Maison individuelle ";
-        resultat += "avec son terrain de " + surfaceTerrain + "m2";
+        resultat += "avec son terrain de " + surfaceTerrain + " m2";
         if(piscine){
             resultat += " et sa piscine";
         }

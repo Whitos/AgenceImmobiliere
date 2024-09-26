@@ -20,6 +20,6 @@ public abstract class Piece {
 
     @Override
     public String toString() {
-        return typePiece + " surface : " + surface() + "m² \n";
+        return typePiece + " surface : " + surface() + " m² \n";
     }
 }
