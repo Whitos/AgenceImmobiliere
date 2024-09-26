@@ -45,6 +45,10 @@ public abstract class BienImmobilier {
         return vendeur;
     }
 
+    public List<Piece> getPieces() {
+        return pieces;
+    }
+
      @Override
     public String toString() {
         DecimalFormat numberFormat = new DecimalFormat("#.00");
